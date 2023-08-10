@@ -1,0 +1,31 @@
+name: mbench
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_qidgets:
+    git:
+      ref: 775354a354bf97986c45c085462210b4d3629e07
+      url: https://github.com/epatel/flutter_qidgets.git
+
+  cupertino_icons: ^1.0.2
+  go_router: ^10.0.0
+  provider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
