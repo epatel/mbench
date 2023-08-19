@@ -6,3 +6,5 @@ FILES="pubspec.yaml lib/*.dart lib/*/*.dart Makefile scripts/*"
 sed -i "" "s/$NAME/{Name}/g" $FILES
 
 templater $NAME $FILES
+
+git checkout $FILES
