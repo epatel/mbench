@@ -1,16 +1,7 @@
 # mbench
 
-A new Flutter project.
+This is a template flutter project that can be packaged into a single bash script. It can also be extracted to a new project with a seperate name.
 
-## Getting Started
+`./mktemplate` will create the new template `mbench.sh`
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project contain a Makefile with targets to update itself (.PHONY targets) and update flutter_qidgets reference in pubspec.yaml 
