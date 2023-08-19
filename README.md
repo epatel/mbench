@@ -1,6 +1,6 @@
 # mbench
 
-This is a template flutter project that can be packaged into a single bash script. It can also be extracted to a new project with a seperate name.
+This is a template flutter project that can be packaged into a single bash script. It extracts to a new project with a seperate name.
 
 `./mktemplate` will create the new template `mbench.sh`
 
