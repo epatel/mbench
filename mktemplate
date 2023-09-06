@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME=mbench
+NAME=`awk '/^name: [a-zA-Z0-9_]*/ {print $2}' pubspec.yaml`
 FILES="pubspec.yaml lib/*.dart lib/*/*.dart Makefile scripts/*"
 
 sed -i "" "s/$NAME/{Name}/g" $FILES
