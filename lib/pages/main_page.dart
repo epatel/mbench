@@ -23,7 +23,7 @@ class _MainPageState extends State<MainPage> {
         title: widget.title.wText,
       ),
       body: [
-        'You have pushed the button this many times:'.wHeadline5(context),
+        'You have pushed the button this many times:'.wLabelLarge(context),
         const CounterWidget(),
       ].columnSpreadEvenly.center,
       floatingActionButton: FloatingActionButton(

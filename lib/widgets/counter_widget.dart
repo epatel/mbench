@@ -9,6 +9,6 @@ class CounterWidget extends StatelessWidget {
       (Coordinator coordinator) => coordinator.state.counter,
     );
 
-    return '$counter'.wHeadline3(context);
+    return '$counter'.wLabelLarge(context);
   }
 }

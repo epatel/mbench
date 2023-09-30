@@ -74,8 +74,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "9f49ee0b7cf57adbc2d6a1b10203ed2658069653"
-      resolved-ref: "9f49ee0b7cf57adbc2d6a1b10203ed2658069653"
+      ref: "8ccfa0a6a8e29614115d6d4f7a639efc3bc1d0d9"
+      resolved-ref: "8ccfa0a6a8e29614115d6d4f7a639efc3bc1d0d9"
       url: "https://github.com/epatel/flutter_qidgets.git"
     source: git
     version: "1.0.1"
@@ -231,5 +231,5 @@ packages:
     source: hosted
     version: "0.1.4-beta"
 sdks:
-  dart: ">=3.1.0-185.0.dev <4.0.0"
+  dart: ">=3.1.2 <4.0.0"
   flutter: ">=3.7.0"

@@ -14,7 +14,7 @@ dependencies:
 
   flutter_qidgets:
     git:
-      ref: 9f49ee0b7cf57adbc2d6a1b10203ed2658069653
+      ref: 8ccfa0a6a8e29614115d6d4f7a639efc3bc1d0d9
       url: https://github.com/epatel/flutter_qidgets.git
 
   cupertino_icons: ^1.0.2
