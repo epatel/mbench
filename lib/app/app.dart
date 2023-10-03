@@ -10,10 +10,12 @@ export 'coordinator_events.dart';
 class App extends StatelessWidget {
   const App({super.key});
 
+  static final _coordinator = Coordinator();
+
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<Coordinator>.value(
-      value: Coordinator(),
+      value: _coordinator,
       child: MaterialApp.router(
         routerConfig: router,
         title: 'App',
